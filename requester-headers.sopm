@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<otobo_package version="1.0">
+  <Name>requester-headers</Name>
+  <Version>0.2.0</Version>
+  <Framework>10.0.x</Framework>
+  <Vendor>Universität Augsburg FAI</Vendor>
+  <License>GNU General Public License Version 3, 29 June 2007</License>
+  <URL>https://git.rz.uni-augsburg.de/itinfo-h/otrs-rocketchat/-/tree/master/requester-headers</URL>
+  <ChangeLog version="0.2.0" Date="2020-04-30 12:26:00">
+    Port to OTOBO.
+  </ChangeLog>
+  <ChangeLog version="0.1.0" Date="2020-09-03 14:57:13">
+    Initial Version
+  </ChangeLog>
+  <Description Lang="en">
+    Allows for RequesterObjects to send requests
+    with custom headers via Transport::HTTP::REST
+  </Description>
+  <Description Lang="de">
+    Änderbare HTTP Header für RequesterObjects, die
+    Transport::HTTP::REST verwenden.
+  </Description>
+  <Filelist>
+    <File Permission="644" Location="Kernel/GenericInterface/Transport/HTTP/REST.pm"></File>
+  </Filelist>
+</otobo_package>
